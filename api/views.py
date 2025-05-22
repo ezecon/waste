@@ -8,7 +8,7 @@ import torchvision.transforms as transforms
 from torchvision import models
 
 # Load the trained model
-model_path = "photo_processor/models/resnet50_fundus_classifier.pth"  # Update path if needed
+model_path = "photo_processor/models/resnet50_classifier.pth"  # Update path if needed
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 # Initialize ResNet50 model
